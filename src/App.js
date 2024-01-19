@@ -1,0 +1,26 @@
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap'
+import NavSection from './NavSection';
+import HomeSection from './HomeSection';
+import AboutSection from './AboutSection';
+import ServicesSection from './ServicesSection';
+import FooterSection from './FooterSection';
+
+function App() {
+  return (
+    <div className='container'>
+        <div className='row'>
+          <div className='col-12 col-md-8 mx-auto'>
+            <NavSection/>
+            <HomeSection/>
+            <AboutSection/>
+            <ServicesSection/>
+            <FooterSection/>
+          </div>
+        </div>
+    </div>
+  );
+}
+
+export default App;
