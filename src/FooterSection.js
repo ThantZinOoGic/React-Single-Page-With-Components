@@ -2,20 +2,6 @@ import React from 'react';
 
 export default function FooterSection() {
   return (
-    // <div className='row justify-content-center bg-secondary mt-md-5 mt-3'>
-    //   <div className='d-flex col-10 col-md-5 mt-md-5 mt-3 border-bottom border-2 pb-3'>
-    //     <div className='px-3 px-md-5'><a href='#home' className='text-white-50'>Home</a></div>
-    //     <div className='px-3 px-md-5'><a href='#about' className='text-white-50'>About</a></div>
-    //     <div className='px-3 px-md-5'><a href='#services' className='text-white-50'>Services</a></div>
-    //     <div className='px-3 px-md-5'><a href='#' className='text-white-50'>FQA</a></div>
-    //   </div>
-    //   <div className='col-12 d-flex justify-content-center m-3'>
-    //       <h4 className='text-white-50'>
-    //         © 2024 Company, Inc
-    //       </h4>
-    //   </div>
-    // </div>
-
     <div className='row'>
       <div class="container my-5">
 
@@ -56,17 +42,16 @@ export default function FooterSection() {
                   </p>
                 </div>
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            {/* <!-- Links --> */}
                 <h6 class="text-uppercase fw-bold">Products</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto"/>
                 <p>
-                <a href="#!" class="text-white">MDBootstrap</a>
+                <a href="#!" class="text-white">Bootstrap</a>
                 </p>
                 <p>
-                <a href="#!" class="text-white">MDWordPress</a>
+                <a href="#!" class="text-white">Word Press</a>
                 </p>
                 <p>
-                  <a href="#!" class="text-white">BrandFlow</a>
+                  <a href="#!" class="text-white">Brand Flow</a>
                 </p>
                 <p>
                   <a href="#!" class="text-white">Bootstrap Angular</a>
@@ -105,7 +90,7 @@ export default function FooterSection() {
         </section>
         <div class="text-center p-3">
           © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a class="text-white" href="https://mdbootstrap.com/">Bootstrap.com</a>
         </div>
         </footer>
     </div>

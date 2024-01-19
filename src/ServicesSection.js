@@ -13,7 +13,7 @@ export default function ServicesSection() {
                 <div className="card">
                     <img src={blog} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
+                        <h5 className="card-title">Service One</h5>
                         <p className="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
@@ -25,7 +25,7 @@ export default function ServicesSection() {
                 <div className="card">
                     <img src={blog} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
+                        <h5 className="card-title">Service Two</h5>
                         <p className="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>
@@ -37,7 +37,7 @@ export default function ServicesSection() {
                 <div className="card">
                     <img src={blog} className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
+                        <h5 className="card-title">Service Three</h5>
                         <p className="card-text">
                             Some quick example text to build on the card title and make up the bulk of the card's content.
                         </p>

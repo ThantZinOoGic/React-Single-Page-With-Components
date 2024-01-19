@@ -4,7 +4,7 @@ import blog from './blog.svg';
 export default function NavSection() {
   return (
     <div className=''>
-      <nav class="navbar navbar-expand-lg  navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid d-flex">
           <div className="align-items-center">
             <a class="" href="#" className="text-decoration-none">
@@ -43,6 +43,7 @@ export default function NavSection() {
           </div>
         </div>
       </nav>
+      <hr/>
     </div>
   )
 }
