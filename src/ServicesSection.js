@@ -4,7 +4,8 @@ import blog from './blog.svg';
 
 export default function ServicesSection() {
   return (
-    <div className='row' id="services">
+    <div className='col-8 mx-auto'>
+        <div className='row' id="services">
         <div className=''>
             <h2 className='text-center my-3'>Services</h2>
         </div>
@@ -45,9 +46,8 @@ export default function ServicesSection() {
                     </div>
                 </div>
             </div>
-        </div>
-
-        
+        </div>    
+    </div>
     </div>
 
   )

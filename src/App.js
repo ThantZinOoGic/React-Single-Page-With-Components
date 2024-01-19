@@ -9,9 +9,9 @@ import FooterSection from './FooterSection';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container-fluid'>
         <div className='row'>
-          <div className='col-12 col-md-8 mx-auto'>
+          <div className=''>
             <NavSection/>
             <HomeSection/>
             <AboutSection/>

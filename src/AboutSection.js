@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function() {
   return (
-    <div className='row justify-content-center mb-3' id='about'>
+    <div className='col-6 mx-auto'>
+      <div className='row justify-content-center mb-3' id='about'>
         <div className='col-12 col-md-11'>
           <div className='my-3'>
             <h1 className='text-center'>About</h1>
@@ -13,6 +14,7 @@ export default function() {
             </p>
           </div>
         </div>
+      </div>
     </div>
   )
 }
